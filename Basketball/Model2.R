@@ -35,7 +35,7 @@ myplot <- ggplot(BPI18,
                  aes(x = reorder(School, --PPG/Opp.PPG),
                      y = PPG,
                      fill = Opp.PPG)) +
-  scale_fill_gradient(low = "black", high = "#e6e6e6", name = "Opponent points\nper game")+
+  scale_fill_gradient(low = "#9e1b32", high = "#828a8f", name = "Opponent points\nper game")+
   theme_tufte () +
   scale_x_discrete("School")+
   scale_y_continuous("Points per game")+
